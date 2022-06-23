@@ -110,7 +110,7 @@ console.log("question 7");
 function find(value, newArrayInput) {
   for(let i = 0; i < newArrayInput.length; i++) {
   }
-  if(newArrayInput.includes(value)){
+  if( i = value ) {// dont use .includes/.indexOf/.find
     return true;
   }
   else {
