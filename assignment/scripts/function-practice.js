@@ -96,7 +96,7 @@ function getLast(){
   let lastItem = array.slice(-1);
   return lastItem;
 }
-console.log("testing the function", getLast());//sshould be 13
+console.log("testing the function", getLast());//should be 13
 
 
 
@@ -104,20 +104,24 @@ console.log("testing the function", getLast());//sshould be 13
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 
-// need a for loop 
-
 console.log("question 7");
-newArray = [2, 3, 4, 5, 6];
+//newArray = [2, 3, 4, 5, 6];
 
-
-
-
-function find(value, newArray){
-  for(let i =0; i < newArray.length; i++){
-    console.log("testing for loop");
+/*function find(value, newArrayInput ){
+  for(let i =0; i < newArrayInput.length; i++){
+    console.log("testing for loop",);
+    return;
   }
 
 }
+ 
+console.log(find (1, newArrayInput));
+*/
+function find(value, newArrayInput) {
+  for(let i = 0; i < newArrayInput.length; i++) {
+  }
+}
+console.log("testing the function", find(2, [1,2,3]));
 
 
 
