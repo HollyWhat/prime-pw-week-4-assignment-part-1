@@ -86,10 +86,19 @@ console.log("isPositive - should say false", isPositive(-5));
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
 
+// array needed
+// return needed
+// need varible that is the last item
+let array = [10, 5, 3, 13];
 
-function getLast(array ) {
 
+function getLast(){
+  let lastItem = array.slice(-1);
+  return lastItem;
 }
+console.log("testing the function", getLast());//sshould be 13
+
+
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
