@@ -103,15 +103,23 @@ console.log("testing the function", getLast());//sshould be 13
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
-function find( value, array ){
-  
+
+// need a for loop 
+
+console.log("question 7");
+newArray = [2, 3, 4, 5, 6];
+
+function find(value, newArray){
+
 }
 
 
 
 
 
-
+//function find( value, array ){
+ //  
+//}
 
 // ----------------------
 // Stretch Goals
@@ -131,6 +139,7 @@ function sumAll( ) {
   return sum;
 }
 
+
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
@@ -139,4 +148,4 @@ function sumAll( ) {
 
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
-//     here in a comment, write the function, and test it!
+//     here in a comment, write the function, and test it!/ 
