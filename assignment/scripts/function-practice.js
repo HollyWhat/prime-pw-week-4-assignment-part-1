@@ -109,13 +109,14 @@ console.log("question 7");
 
 function find(value, newArrayInput) {
   for(let i = 0; i < newArrayInput.length; i++) {
+    if( i = value ) {// dont use .includes/.indexOf/.find
+      return true;
+    }
+    else {
+      return false;
+    }
   }
-  if( i = value ) {// dont use .includes/.indexOf/.find
-    return true;
-  }
-  else {
-    return false;
-  }
+  
 }
 console.log("testing the function", find(0, [1,2,3]));  // false
 console.log("testing the function", find(1, [1,2,3])); // true
