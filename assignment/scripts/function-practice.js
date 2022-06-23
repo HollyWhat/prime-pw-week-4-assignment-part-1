@@ -61,21 +61,32 @@ console.log("Here is the answer", multiplyThree (5,2,10));// answer should be 10
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
+
+
+//added true/false return 
+// testing console
+
 function isPositive( number ) {
   if ( number > 0 ){
-    return;
+    return true;
+  }else{
+    return false;
   }
-    return;
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
 console.log( 'isPositive - should say true', isPositive(3) );
 console.log( 'isPositive - should say false', isPositive(0) );
 console.log( 'isPositive - should say false', isPositive(-3) );
+// personal test
+console.log("isPositive - should say true", isPositive(5));
+console.log("isPositive - should say false", isPositive(-5));
 
 
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
+
+
 function getLast(array ) {
 
 }
@@ -86,6 +97,12 @@ function getLast(array ) {
 function find( value, array ){
   
 }
+
+
+
+
+
+
 
 // ----------------------
 // Stretch Goals
