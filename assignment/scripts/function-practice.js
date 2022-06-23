@@ -109,7 +109,13 @@ console.log("testing the function", getLast());//sshould be 13
 console.log("question 7");
 newArray = [2, 3, 4, 5, 6];
 
+
+
+
 function find(value, newArray){
+  for(let i =0; i < newArray.length; i++){
+    console.log("testing for loop");
+  }
 
 }
 
