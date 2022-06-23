@@ -107,6 +107,22 @@ console.log("testing the function", getLast());//should be 13
 console.log("question 7");
 
 
+function find(value, newArrayInput) {
+  for(let i = 0; i < newArrayInput.length; i++) {
+  }
+  if(newArrayInput.includes(value)){
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+console.log("testing the function", find(0, [1,2,3]));  // false
+console.log("testing the function", find(1, [1,2,3])); // true
+
+
+
+// old code:
 /*function find(value, newArrayInput ){
   for(let i =0; i < newArrayInput.length; i++){
     console.log("testing for loop",);
@@ -119,27 +135,13 @@ console.log(find (1, newArrayInput));
 */
 
 
-
-
-function find(value, newArrayInput) {
-  for(let i = 0; i < newArrayInput.length; i++) {
-  }
-  if(value === newArrayInput){
-    return true;
-  }
-  else {
-    return false;
-  }
-}
-console.log("testing the function", find(0, [1,2,3]));  // false
-console.log("testing the function", find(1, [1,2,3])); // true
-
-
-
-
 //function find( value, array ){
  //  
 //}
+
+
+
+
 
 // ----------------------
 // Stretch Goals
