@@ -105,7 +105,7 @@ console.log("testing the function", getLast());//should be 13
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 
 console.log("question 7");
-//newArray = [2, 3, 4, 5, 6];
+
 
 /*function find(value, newArrayInput ){
   for(let i =0; i < newArrayInput.length; i++){
@@ -117,12 +117,22 @@ console.log("question 7");
  
 console.log(find (1, newArrayInput));
 */
+
+
+
+
 function find(value, newArrayInput) {
   for(let i = 0; i < newArrayInput.length; i++) {
   }
+  if(value === newArrayInput){
+    return true;
+  }
+  else {
+    return false;
+  }
 }
-console.log("testing the function", find(2, [1,2,3]));
-
+console.log("testing the function", find(0, [1,2,3]));  // false
+console.log("testing the function", find(1, [1,2,3])); // true
 
 
 
